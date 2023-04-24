@@ -5,7 +5,7 @@ from google.cloud import bigquery
 
 gc = gspread.service_account(filename='creds.json')
 #sh = gc.open_by_key('1APvCyQww0UszHMXzkV9DL0Wiw8Aczsr26px3sShQDo0')
-worksheet = gc.open('Sales_data').sheet1 # replace 'Sheet1' with your sheet name
+worksheet = gc.open('Sales_data').sheet1 # replace 'Sales_data' with your sheet name
 
 #with open('output.csv', 'w', newline='') as file:
 #    writer = csv.writer(file)
