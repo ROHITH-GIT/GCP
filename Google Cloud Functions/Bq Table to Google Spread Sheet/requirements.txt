@@ -1,0 +1,3 @@
+google.cloud
+gspread
+gspread_dataframe
